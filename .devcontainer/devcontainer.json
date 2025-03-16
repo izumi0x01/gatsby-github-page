@@ -1,6 +1,10 @@
 {
 	"name": "Node.js & TypeScript",
 	"image": "mcr.microsoft.com/devcontainers/typescript-node:1-20-bullseye",
+	"appPort": [
+		8000,
+		9000
+	],
 	"postCreateCommand": "/bin/sh .devcontainer/postCreateCommand.sh",
 	"customizations": {
 		"vscode": {
